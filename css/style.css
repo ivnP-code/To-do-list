@@ -1,0 +1,55 @@
+#Task{
+    background-color: rgb(203, 203, 203);
+    height: 40px;
+    width: 260px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#Show:hover, #Add:hover{
+    background-color: rgb(187, 96, 79);
+    padding: 20px;
+    margin-left: 20px;
+    transition-duration: 400ms;
+    color: aliceblue;
+}
+#Show, #Add{
+    background-color: rgb(245, 191, 182);
+    padding: 20px;
+    margin-left: 20px;  
+    color: brown;  
+    font-size: 18px;
+    font-weight: 800px;
+    border-radius: 20px;
+}
+#field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+.block{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}
+#message {
+  display: none;
+  color: green;
+  margin-top: 10px;
+}
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+}
